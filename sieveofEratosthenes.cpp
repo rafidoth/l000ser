@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-//better approach O(sqrtN)
+//Time complexity O(nlog(logn))
 
 bool sieveOfEratosthenes(int n){
 	vector <bool> v(n+1,true);
