@@ -2,8 +2,9 @@
 using namespace std;
 //Time complexity O(nlog(logn))
 
+
 bool sieveOfEratosthenes(int n){
-	vector <bool> v(n+1,true);
+	vector <int> v(n+1,true);
 	v[0]=v[1]= false;
 	for(int i=2;i*i<=n;i++){
 		if(v[i]){
